@@ -1,0 +1,17 @@
+.about{
+    color: black;
+    width: 80%;
+    padding: 10;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    
+}
+.about img{
+    width: 150px;
+    margin: 30px;
+}

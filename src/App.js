@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+
+
 import './App.css';
+import { Body } from './Components/Body/Body';
+
+import { Header} from './Components/Header/Header';
+import { SliderComponent } from './Components/Slider/Slider';
+
+import ReactDOM from 'react-dom'
+import { About_us } from './Components/About_us/About_us';
+import { Contacts } from './Components/Contacts/Contacts';
+import { Footer } from './Components/Footer/Footer';
+
+import { GoogleMaps} from './Components/GoogleMaps/GoogleMaps';
+
+
+
+
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+   <div className='App'>
+    <div className='main main-screen'>
+    <Header />
+    
+    <SliderComponent />
+    <Body />
+    <About_us />
+    <Contacts />
+    <GoogleMaps />
+    <Footer />
     </div>
+    
+   </div>
+  
   );
 }
 
 export default App;
+
+
