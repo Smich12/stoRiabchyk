@@ -8,7 +8,7 @@ export class GoogleMaps extends Component {
   render() {
     return (
         GoogleApiWrapper({
-            apiKey: ("AIzaSyAsJgnmjggefpBMfI-zE2qeryy_npqqjEs")
+            apiKey: ("")
           })(MapContainer)
     )
   }
