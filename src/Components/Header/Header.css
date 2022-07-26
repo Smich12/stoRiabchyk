@@ -123,6 +123,7 @@
   @media (max-width: 700px) {
     .menu-button-container {
       display: flex;
+      
     }
     .menu {
       position: absolute;
@@ -133,6 +134,7 @@
       width: 100%;
       justify-content: center;
       align-items: center;
+      z-index: 2;
     }
     #menu-toggle ~ .menu li {
       height: 0;

@@ -22,9 +22,10 @@ function App() {
     
    <div className='App'>
     <div className='main main-screen'>
-    <Header />
     
+    <Header />
     <SliderComponent />
+    
     <Body />
     <About_us />
     <Contacts />

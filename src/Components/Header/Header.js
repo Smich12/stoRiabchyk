@@ -5,7 +5,7 @@ import logo from './../../images/logo.png'
 export class Header extends Component {
   render() {
     return (
-      <div>
+      <div className='header'>
         <div class="top-nav">
           <div className='logo'>
             <img className='logo__img' src={logo} />
