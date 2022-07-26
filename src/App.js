@@ -11,7 +11,6 @@ import { About_us } from './Components/About_us/About_us';
 import { Contacts } from './Components/Contacts/Contacts';
 import { Footer } from './Components/Footer/Footer';
 
-import { GoogleMaps} from './Components/GoogleMaps/GoogleMaps';
 
 
 
@@ -29,7 +28,7 @@ function App() {
     <Body />
     <About_us />
     <Contacts />
-    <GoogleMaps />
+    {/* <GoogleMaps /> */}
     <Footer />
     </div>
     

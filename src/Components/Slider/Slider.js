@@ -3,7 +3,9 @@ import "./Slider.css"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import slide1 from './../../images/slide1.jpg'
+import slide1 from './../../images/slide_1.jpg'
+import slide2 from './../../images/slide_2.jpg'
+import slide3 from './../../images/slide_3.jpg'
 
 export class SliderComponent extends Component {
   render() {
@@ -13,9 +15,9 @@ export class SliderComponent extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      adaptiveHeight:false,
-      autoplaySpeed: 6000,
-      autoplay: false,
+      adaptiveHeight:true,
+      autoplaySpeed: 2000,
+      autoplay: true,
       arrows: false
     
     };
@@ -27,10 +29,10 @@ export class SliderComponent extends Component {
              <img src={slide1}/>
            </div>
            <div className="slide">
-             <h3>2</h3>
+           <img src={slide2}/>
            </div>
            <div className="slide">
-             <h3>3</h3>
+           <img src={slide3}/>
            </div>
           
          </Slider>
