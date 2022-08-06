@@ -1,0 +1,42 @@
+@mixin for-small-mobile {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin for-mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin for-tablet {
+  @media (min-width: 769px) and (max-width: 1199px) {
+    @content;
+  }
+}
+@mixin for-desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin for-big-desktop {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
+@mixin containerWidthDesktop {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  @include for-desktop(){
+    width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+}
+
+@mixin fontFamily ($fontSize, $fontColor: 'black', $fontWeight: 500) {
+  font-family: Roboto, sans-serif;
+  font-size: $fontSize;
+  color: $fontColor;
+  font-weight: $fontWeight;
+}

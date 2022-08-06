@@ -1,0 +1,30 @@
+.body {
+  color: black;
+
+  .serviceBlock {
+    margin: 40px 0;
+    &__content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      justify-items: center;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  }
+}
+
+.serv {
+  width: 400px;
+  height: 340px;
+  border: 1px solid gray;
+  padding: 20px;
+  background: white;
+  margin: 20px;
+  text-align: center;
+}
+
+.highlight {
+  color: #00509d;
+  height: 100px;
+}

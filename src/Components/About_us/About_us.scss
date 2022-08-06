@@ -1,0 +1,17 @@
+@import "src/scss/mixin";
+
+.about {
+  @include containerWidthDesktop;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: initial;
+  flex-wrap: wrap;
+}
+.about img {
+  width: 150px;
+  margin: 30px;
+}

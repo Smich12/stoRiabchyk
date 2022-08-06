@@ -1,16 +1,13 @@
-import React, { Component } from 'react'
-import { ImageBlock } from './ImageBlock'
-import './Body.css'
+import React, { Component } from "react";
+import { ImageBlock } from "./ImageBlock";
+import "./Body.scss";
 
 export class Body extends Component {
   render() {
     return (
-      <div className='body__container'>
-        <div>
-          <ImageBlock />
-        </div>
-       
+      <div className="body">
+        <ImageBlock />
       </div>
-    )
+    );
   }
 }

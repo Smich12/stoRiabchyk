@@ -1,43 +1,30 @@
 .App {
   text-align: center;
-  color: rgb(255, 255, 255);
-  
+  color: #222222;
 }
 .main {
-  
   margin: auto;
   text-align: center;
   width: 100%;
 }
 
-.main p{
+.main p {
   font-size: 1.3em;
 }
 @media screen and (min-width: 600px) {
-
-  .main-screen{
-      
-
+  .main-screen {
     width: 100%;
-    
   }
 }
 
 @media only screen and (min-width: 768px) {
-  
-  .main-screen{
-      
-
+  .main-screen {
     width: 100%;
-    
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .main-screen{
-      
-
+  .main-screen {
     width: 100%;
-    
   }
 }

@@ -4,28 +4,40 @@
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-google-maps/api": "^2.12.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.8",
+    "babel-loader": "^8.2.5",
     "babel-plugin-macros": "^3.1.0",
+    "babel-preset-es2015": "^6.24.1",
     "bootstrap": "^5.1.3",
+    "css-loader": "^6.7.1",
     "google-maps-react": "^2.0.6",
+    "mini-css-extract-plugin": "^2.6.1",
+    "postcss-loader": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
+    "react-hot-loader": "^4.13.0",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack-cli": "^4.10.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "webpack serve --mode development",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production"
   },
   "eslintConfig": {
     "extends": [
@@ -44,5 +56,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "dotenv": "^16.0.1",
+    "dotenv-webpack": "^8.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "interpolate-html-plugin": "^4.0.0",
+    "prettier": "2.7.1",
+    "react-refresh": "^0.14.0",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.74.0"
   }
 }

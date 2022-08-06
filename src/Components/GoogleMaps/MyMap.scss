@@ -1,0 +1,10 @@
+@import "src/scss/mixin";
+
+.container{
+  //@include containerWidthDesktop;
+  height: 600px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #222222;
+  position: relative;
+}

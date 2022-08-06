@@ -1,0 +1,21 @@
+@import "src/scss/mixin";
+
+.contacts {
+  @include containerWidthDesktop;
+  color: black;
+  margin: 50px auto 0;
+}
+.contacts h1 {
+  border-bottom: 2px solid #00509d;
+}
+.contacts ul {
+  padding-inline-start: 20px;
+  text-align: left;
+  /*list-style: circle;*/
+  font-style: italic;
+  font-size: 18px;
+  width: calc(100% - 20px);
+  li::marker {
+    display: none;
+  }
+}

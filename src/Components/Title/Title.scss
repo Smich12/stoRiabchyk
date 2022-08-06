@@ -1,0 +1,92 @@
+@import "/src/scss/mixin";
+
+.title {
+  //margin-top: 90px;
+  height: 90px;
+  display: flex;
+  color: #00509d;
+  background-color: #fdc500;
+
+
+  &__container{
+    @include containerWidthDesktop;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    &--title {
+     @include fontFamily(25px, black, 500);
+      @include for-mobile(){
+        @include fontFamily(19px, black, 500)
+      }
+    }
+
+    &--address {
+      @include fontFamily(15px, black);
+      @include for-mobile(){
+        @include fontFamily(13px, black, 500)
+      }
+    }
+  }
+
+  &__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    &--name{
+      @include fontFamily(22px, black, 500);
+      @include for-mobile(){
+        @include fontFamily(19px, black, 500)
+      }
+    }
+    &--phone{
+      @include fontFamily(18px, black);
+      &:hover, &:focus{
+        color: #838383;
+      }
+    }
+    &--social{
+      display: flex;
+      justify-content: space-between;
+      width: 157px;
+      @include for-mobile(){
+        width: 138px;
+      }
+      //margin-top: 5px;
+    }
+  }
+
+  h1,h2,h3{
+    margin: 0;
+  }
+  h3.title__left--address {
+    margin-top: 5px;
+  }
+  .title__right--phone {
+    margin-top: 5px;
+  }
+
+  .icon {
+    color: #222222;
+    font-size: 24px;
+    margin-left: 10px;
+    &:hover, &:focus{
+      color: #838383;
+    }
+    img{
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

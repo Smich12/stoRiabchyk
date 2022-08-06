@@ -1,21 +1,20 @@
-import React, { Component } from 'react'
-import './Header.css'
-import logo from './../../images/logo.png'
+import React, { Component } from "react";
+import "./Header.scss";
 
 export class Header extends Component {
   render() {
     return (
-      <div className='header'>
-        <div class="top-nav">
-          <div className='logo'>
-            <img className='logo__img' src={logo} />
-            <h3>Riabchuk</h3>
+      <div className="header">
+        <div className="top-nav">
+          <div className="logo">
+            <img className="logo__img" src={require('/assets/images/logo_white.png')} />
+            <h3>Riabchyk</h3>
           </div>
           <input id="menu-toggle" type="checkbox" />
-          <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'></div>
+          <label className="menu-button-container" htmlFor="menu-toggle">
+            <div className="menu-button"></div>
           </label>
-          <ul class="menu">
+          <ul className="menu">
             <li>Головна</li>
             <li>Наші послуги</li>
             <li>Про нас</li>
@@ -24,8 +23,6 @@ export class Header extends Component {
           </ul>
         </div>
       </div>
-    )
+    );
   }
 }
-
-

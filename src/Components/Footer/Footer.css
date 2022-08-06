@@ -1,8 +1,13 @@
-.footer{
-    background: linear-gradient(to left, #f46b45, #eea849);
-    width: 100%;
+.footer {
+  /*background: linear-gradient(to left, #fdc500, #00509d);*/
+  background-color: #00509d;
+  color: 'white';
+  width: 100%;
 }
-.footer__h3{
-    text-align: initial;
-    padding: 10px;
+.footer__h3 {
+  text-align: initial;
+  padding: 10px;
+  margin: 0;
+  font-size: 15px;
+  color: white;
 }
