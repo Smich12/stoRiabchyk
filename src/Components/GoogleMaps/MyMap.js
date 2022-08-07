@@ -31,7 +31,7 @@ const MapContainer = (props) => {
     openNavigation()
   }
   return (
-    <div>
+    <div className="map">
       <h2>Наші координати</h2>
       <div
         className='container'

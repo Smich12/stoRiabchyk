@@ -4,7 +4,13 @@
   //@include containerWidthDesktop;
   height: 600px;
   width: 90%;
-  margin: 0 auto;
+  margin: 0px auto;
   background-color: #222222;
   position: relative;
+}
+
+.map h2 {
+  border-bottom: 2px solid #00509d;
+  width: 95%;
+  margin: 50px auto;
 }

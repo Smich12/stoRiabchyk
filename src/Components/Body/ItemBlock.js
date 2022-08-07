@@ -14,7 +14,7 @@ export class ItemBlock extends Component {
         />
 
         <i className="fa-solid fa-user"></i>
-        <h2>{this.props.title}</h2>
+        <h3>{this.props.title}</h3>
         <p>{this.props.desc}</p>
       </div>
     );

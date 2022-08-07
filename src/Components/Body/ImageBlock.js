@@ -6,8 +6,8 @@ export class ImageBlock extends Component {
     return (
       <div className="serviceBlock">
         <div className="serviceBlock__title">
-          <h1>Послуги</h1>
-          <h2>Комп'ютерна діагностика та перевірка систем</h2>
+          <h2>Послуги</h2>
+          <h3>Комп'ютерна діагностика та перевірка систем</h3>
         </div>
         <div className="serviceBlock__content">
           <ItemBlock
@@ -39,7 +39,7 @@ export class ImageBlock extends Component {
           <ItemBlock
             iconName="wind"
             title="Герметичність впускного колектора"
-            desc="Перевірка герметичності впусконого колектора димогогенератора. Чистка дросельних заслонок, замуна прокладок, кілець, вакумних патрубків."
+            desc="Перевірка герметичності впусконого колектора димогогенератора. Чистка дросельних заслонок, заміна прокладок, кілець, вакумних патрубків."
           />
           <ItemBlock
             iconName="temperature-arrow-down"
@@ -51,11 +51,11 @@ export class ImageBlock extends Component {
             title="Автоелектрика"
             desc="Ремонт електропроводки, встановлення ксенона, магнітол, камер заднього виду, парктроніків та доводчиків вікон."
           />
-          <ItemBlock
+          {/* <ItemBlock
             iconName="lightbulb"
             title="Автоелектрика"
             desc="Ремонт електропроводки, встановлення ксенона, магнітол, камер заднього виду, парктроніків та доводчиків вікон."
-          />
+          /> */}
         </div>
       </div>
     );

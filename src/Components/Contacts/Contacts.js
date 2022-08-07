@@ -5,7 +5,7 @@ export class Contacts extends Component {
   render() {
     return (
       <div className="contacts">
-        <h1>Контакти</h1>
+        <h2>Контакти</h2>
         <p>
           Ви можете зв'язатися з нами за вказаними телефонами або знайти нас за
           вказаною адресою.

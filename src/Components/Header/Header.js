@@ -17,9 +17,9 @@ export class Header extends Component {
           <ul className="menu">
             <li>Головна</li>
             <li>Наші послуги</li>
-            <li>Про нас</li>
-            <li>Контакти</li>
+            <li>Вартість</li>
             <li>Наші кординати</li>
+            <li>Контакти</li>
           </ul>
         </div>
       </div>
